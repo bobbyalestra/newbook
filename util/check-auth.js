@@ -24,5 +24,5 @@ module.exports = (context) => {
         }
         throw new Error('Authenication token must be provided')
     }
-    throw new Error('Authenication token must be provided')
+    throw new Error('Authenication header must be provided')
 }
